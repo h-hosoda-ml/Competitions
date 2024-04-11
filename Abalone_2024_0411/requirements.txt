@@ -1,0 +1,11 @@
+tqdm
+wheel
+jupyter
+numpy
+pandas
+matplotlib
+scipy
+scikit-learn
+kaggle
+lightgbm
+xgboost
