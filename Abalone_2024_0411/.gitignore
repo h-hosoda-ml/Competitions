@@ -6,3 +6,5 @@ data/train_images/
 data/test_images/
 __pycache__*
 .DS_Store
+.env
+abalone_2024_0411.egg-info/
