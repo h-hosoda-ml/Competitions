@@ -16,13 +16,14 @@ dependencies = [
     "kaggle>=1.6.11",
     "lightgbm>=4.3.0",
     "wheel>=0.43.0",
+    "python-dotenv>=1.0.1",
+    "seaborn>=0.13.2",
+    "wandb>=0.16.6",
+    "optuna>=3.6.1",
+    "optuna-integration>=3.6.0",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
-
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
 
 [tool.rye]
 managed = true
