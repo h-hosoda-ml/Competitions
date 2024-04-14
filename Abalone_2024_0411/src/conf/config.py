@@ -12,3 +12,45 @@ DIRS = {
 }
 
 PARAMS = {"seed": 42}
+
+
+class CFG:
+    ID = "id"
+    TARGET = "Rings"
+    CATEGORIES = [
+        "Sex",
+        "Length",
+        "Diameter",
+        "Height",
+        "Whole weight",
+        "Whole weight.1",
+        "Whole weight.2",
+        "Shell weight",
+    ]
+
+    NUMERIC_VARS = [
+        "Length",
+        "Diameter",
+        "Height",
+        "Whole weight",
+        "Whole weight.1",
+        "Whole weight.2",
+        "Shell weight",
+        "Rings",
+    ]
+
+    NUMERIC_FEATURES = [
+        "Length",
+        "Diameter",
+        "Height",
+        "Whole weight",
+        "Whole weight.1",
+        "Whole weight.2",
+        "Shell weight",
+    ]
+
+    CAT_FEATURES = ["Sex"]
+
+    # testの設定
+    TEST_SIZE = 0.25
+    SHUFFLE = True
