@@ -7,5 +7,8 @@ matplotlib
 scipy
 scikit-learn
 kaggle
+optuna
+optuna-integration
 lightgbm
 xgboost
+python-dotenv
