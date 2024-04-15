@@ -9,6 +9,7 @@ DIRS = {
     "BASE": os.getenv("BASE_DIR", ".envnone"),
     "DATA": os.getenv("DATA_DIR", ".envnone"),
     "SRC": os.getenv("SRC_DIR", ".envnone"),
+    "OUTPUT": os.getenv("OUTPUT_DIR", ".env none"),
 }
 
 PARAMS = {"seed": 42}
