@@ -1,0 +1,16 @@
+tqdm
+wheel
+jupyter
+numpy
+pandas
+matplotlib
+japanize-matplotlib
+seaborn
+scipy
+scikit-learn
+optuna
+optuna-integration
+lightgbm
+xgboost
+python-dotenv
+imbalanced-learn
